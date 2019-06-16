@@ -12,3 +12,15 @@ if the above condition is True
 c = a
 else
 c = d
+
+Arrays
+c = [None]\*5
+d = [[None]\*5]\*5
+
+For using list as queue
+the functions are
+q = []
+q.append()
+q.pop(0)
+
+by default pop() removes the last element 
