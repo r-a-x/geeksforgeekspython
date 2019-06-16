@@ -58,8 +58,6 @@ def duplicate(root):
     return st
 
 # I am using the preorder matrix to generate tree
-
-#
 pre = [(20,'a'), (10, 'c'), (5, 'd'), (15, 'e'), (30, 'c'), (25, 'd'), (40, 'e')]
 root = constructTree(pre)
 
