@@ -23,4 +23,10 @@ q = []
 q.append()
 q.pop(0)
 
-by default pop() removes the last element 
+by default pop() removes the last element
+
+
+For sorting the list use the function
+l = [ (k1, v1), (k2, v2), (k3, v3) ]
+l.sort()
+sorting will be done based on the keys k1,k2.. etc
