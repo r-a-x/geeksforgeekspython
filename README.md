@@ -30,3 +30,7 @@ For sorting the list use the function
 l = [ (k1, v1), (k2, v2), (k3, v3) ]
 l.sort()
 sorting will be done based on the keys k1,k2.. etc
+
+
+Topics to work on
+Heap

@@ -27,6 +27,6 @@ for h in range(2, l):
                     pd[i][i+h] = str[i] + pd[i+1][i+h]+ str[i]
                 else:
                     pd[i][i+h] = str[i+h] + pd[i][i+h-1] + str[i+h]
-
+ 
 print dp[0][l-1]
 print pd[0][l-1]
