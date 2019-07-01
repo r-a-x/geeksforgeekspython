@@ -49,3 +49,11 @@ q.put()
 q.get()
 whiile not q.empty():
   pass
+
+
+Heaps
+import heapq
+li = []
+heapq.heapify(li)
+heapq.heappush(li,4)
+heapq.heappop(li)
