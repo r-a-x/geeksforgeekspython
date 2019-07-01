@@ -1,6 +1,6 @@
 # https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/
 # o(n) Implementation
-
+# It contains the O(n) implementation of creating a binary search tree from preorder traversal
 class Node:
     def __init__(self, data):
         self.data = data

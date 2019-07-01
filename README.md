@@ -31,6 +31,21 @@ l = [ (k1, v1), (k2, v2), (k3, v3) ]
 l.sort()
 sorting will be done based on the keys k1,k2.. etc
 
+for initializing the 2d array
+dp = [[None]\*8 for _ in range(n)]
+using solution like [[None]\*n]\*m leads to same reference [None]\*n being available to all the m repititions
 
 Topics to work on
 Heap
+
+There is a Priority Queue in python
+try:
+    import Queue as Q
+except ImportError:
+    import queue as Q
+pq = Q.PriorityQueue()
+
+q.put()
+q.get()
+whiile not q.empty():
+  pass
